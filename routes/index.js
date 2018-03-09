@@ -10,8 +10,8 @@ router.get('/', (req, res, next) => {
 /lixo/
 const testJSON = [
   {
-    name: 'John Smith',
-    username: 'CaptainCode'
+    name: 'Gonçalo Pereira',
+    username: 'O Boss'
   },
   {
     name: 'Jane Doe',
@@ -19,7 +19,7 @@ const testJSON = [
   }
 ];
 
-router.get('/sendjson', (req, res, next) => {
+router.get('/testjson', (req, res, next) => {
   res.json(testJSON)
 });
 
